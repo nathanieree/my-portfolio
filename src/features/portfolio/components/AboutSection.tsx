@@ -82,24 +82,27 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="about-text">
-          <p>
-            With over <strong>5 years</strong> of experience in web development, I bring ideas to life
-            through clean code and thoughtful design. I believe great software is not just functional -
-            it should feel <em>alive</em>.
-          </p>
-          <p>
-            My approach combines technical precision with creative exploration. Every project is an
-            opportunity to push boundaries while maintaining accessibility and performance standards.
-          </p>
-          <div className="about-stats">
-            {aboutStats.map((stat) => (
-              <div key={stat.label} className="about-stat">
-                <span className="stat-number">{stat.value}</span>
-                <span className="stat-label">{stat.label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
+  <p>
+    Over the past <strong>2+ years</strong>, I have been building my web development
+    skills through a mix of formal education and self-driven learning. What started
+    as curiosity has grown into a genuine passion for crafting experiences that
+    users love.
+  </p>
+  <p>
+    I specialize in building <strong>fast, responsive, and visually engaging UIs</strong> using
+    HTML, CSS, JavaScript, and modern frontend frameworks like{" "}
+    <em>React and Next.js</em>. I take pride in writing interfaces that not only
+    look great but also perform smoothly across all devices.
+  </p>
+  <div className="about-stats">
+    {aboutStats.map((stat) => (
+      <div key={stat.label} className="about-stat">
+        <span className="stat-number">{stat.value}</span>
+        <span className="stat-label">{stat.label}</span>
+      </div>
+    ))}
+  </div>
+</div>
       </div>
     </section>
   );

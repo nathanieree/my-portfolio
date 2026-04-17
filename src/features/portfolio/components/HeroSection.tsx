@@ -57,28 +57,29 @@ export default function HeroSection({ onPrimaryAction }: HeroSectionProps) {
       <div className="hero-bg-text">DEVELOPER</div>
       <div className="hero-noise" />
       <div className="hero-content">
-        <p className="hero-greeting">Hello, I&apos;m</p>
-        <h1 className="hero-name">
-          Nathaniel Ree
-          <br />
-          <span className="hero-name-accent">Manzano</span>
-        </h1>
-        <p className="hero-title">
-          Web Developer <span className="accent-dot">&</span> Designer
-        </p>
-        <p className="hero-description">
-          I craft immersive digital experiences that live at the intersection of design and technology.
-          Specializing in performant, animated, and accessible web applications.
-        </p>
-        <div className="hero-cta">
-          <button className="btn-primary" onClick={() => onPrimaryAction("projects")}>
-            View My Work
-          </button>
-          <button className="btn-secondary" onClick={() => onPrimaryAction("contact")}>
-            Get In Touch
-          </button>
-        </div>
-      </div>
+  <p className="hero-greeting">Hello, I&apos;m</p>
+  <h1 className="hero-name">
+    Nathaniel Ree
+    <br />
+    <span className="hero-name-accent">Manzano</span>
+  </h1>
+  <p className="hero-title">
+    Web Developer
+  </p>
+  <p className="hero-description">
+    I build fast, responsive, and user-friendly websites using modern web
+    technologies. From frontend interfaces to full stack applications — I turn
+    ideas into working, real-world products.
+  </p>
+  <div className="hero-cta">
+    <button className="btn-primary" onClick={() => onPrimaryAction("projects")}>
+      View My Work
+    </button>
+    <button className="btn-secondary" onClick={() => onPrimaryAction("contact")}>
+      Get In Touch
+    </button>
+  </div>
+</div>
       <div className="hero-scroll-indicator">
         <span>Scroll</span>
         <div className="scroll-line" />

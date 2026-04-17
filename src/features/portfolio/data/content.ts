@@ -7,9 +7,9 @@ import type {
 } from "@/features/portfolio/types/content";
 
 export const aboutStats: StatItem[] = [
-  { value: "50+", label: "Projects Completed" },
-  { value: "30+", label: "Happy Clients" },
-  { value: "5+", label: "Years Experience" },
+  { value: "30+", label: "Projects Completed" },
+  { value: "10+", label: "Happy Clients" },
+  { value: "2+", label: "Years Experience" },
 ];
 
 export const projects: ProjectItem[] = [
@@ -18,7 +18,7 @@ export const projects: ProjectItem[] = [
     title: "iCan-Careers",
     category: "Full Stack",
     description:
-      "Interactive analytics dashboard with real-time data visualization, ML model monitoring, and automated reporting pipelines.",
+      "A platform designed to empower PWDs and senior citizens by bridging the gap between employment barriers and opportunity. Features skill development tools, flexible work options like freelancing, and an inclusive dashboard that connects users to meaningful job opportunities through digital innovation.",
     tech: ["Vue.js", "Laravel", "MySQL", "Pusher", "Render", "Vercel"],
     images: [
       "/img/iCan-Careers.png",
@@ -39,7 +39,7 @@ export const projects: ProjectItem[] = [
     title: "Nexus",
     category: "Full Stack",
     description:
-      "A modern shopping experience with real-time inventory, Stripe payments, and an admin dashboard built with Next.js and PostgreSQL.",
+      "A cinematic web experience built for the world of film. Features secure authentication, an interactive AI Orb companion with selectable voices, a stunning 3D Database Map with drag-and-drop file management, and a live Security Suite with real-time CCTV camera management. NEXUS isn't just a website — it's a world.",
     tech: ["Next.js", "Node.js", "MongoDB", "Vercel", "Render"],
     images: [
       "/img/Nexus-AI.png",
@@ -49,13 +49,12 @@ export const projects: ProjectItem[] = [
     url: "https://example.com/nexus",
     color: "#E8D5B7",
   },
-  
   {
     id: 3,
     title: "Help-Isko",
     category: "Mobile",
     description:
-      "Cross-platform social networking app with real-time messaging, story features, and location-based discovery.",
+      "A mobile duty scheduling and task management app built for students. Help-Isko simplifies the coordination of academic responsibilities with real-time updates via Pusher, helping student groups stay organized, on track, and accountable throughout the school year.",
     tech: ["Flutter", "MySQL", "Laravel", "Pusher"],
     images: [
       "/img/isko-auth.png",
@@ -71,7 +70,7 @@ export const projects: ProjectItem[] = [
     title: "Paw Adopt Paw",
     category: "Android",
     description:
-      "Complete brand redesign including logo, typography system, color palette, and comprehensive design guidelines.",
+      "An Android app that revolutionizes the pet adoption experience by seamlessly connecting animals in need with loving families. Built with a clean and intuitive interface, it streamlines the adoption process — making it easier, faster, and more meaningful for both adopters and shelter organizations.",
     tech: ["Kotlin", "Laravel", "Retrofit", "MySQL"],
     images: [
       "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1200&q=80",
@@ -85,35 +84,31 @@ export const projects: ProjectItem[] = [
 
 export const experiences: ExperienceItem[] = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    period: "2023 - Present",
+    role: "IT Support Intern",
+    company: "L7 Pictures",
+    period: "2024 - 2025",
     description:
-      "Leading the frontend team, architecting scalable UI systems and mentoring junior developers.",
+      "Provided IT support for a private media and film production company, managing software and systems used in production workflows. Ensured smooth technical operations across production processes for 4 months.",
   },
   {
-    role: "Full Stack Developer",
-    company: "StartupXYZ",
-    period: "2021 - 2023",
+    role: "Full Stack Developer (Academic Projects)",
+    company: "Self-Initiated & School Projects",
+    period: "2022 - 2025",
     description:
-      "Built and shipped 3 major products from concept to production with 50K+ active users.",
-  },
-  {
-    role: "Frontend Developer",
-    company: "DesignStudio",
-    period: "2019 - 2021",
-    description:
-      "Crafted pixel-perfect interfaces for Fortune 500 clients with a focus on accessibility.",
+      "Designed and developed multiple full stack and mobile applications including iCan-Careers, Nexus, Help-Isko, and Paw Adopt Paw — applying modern technologies like Vue.js, Next.js, Laravel, Flutter, and MySQL.",
   },
 ];
 
 export const skills: SkillItem[] = [
-  { name: "React / Next.js", level: 95 },
-  { name: "TypeScript", level: 90 },
+  { name: "HTML", level: 98 },
+  { name: "CSS", level: 97 },
+  { name: "JavaScript", level: 90 },
   { name: "Node.js", level: 85 },
-  { name: "UI/UX Design", level: 80 },
+  { name: "Laravel", level: 80 },
   { name: "Python", level: 75 },
-  { name: "DevOps / CI/CD", level: 70 },
+  { name: "MongoDB", level: 80 },
+  { name: "MySQL", level: 90 },
+  { name: "DevOps / CI/CD", level: 90 },
 ];
 
 export const contactLinks: ContactLink[] = [
