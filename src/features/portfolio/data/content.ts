@@ -86,14 +86,14 @@ export const experiences: ExperienceItem[] = [
   {
     role: "IT Support Intern",
     company: "L7 Pictures",
-    period: "2024 - 2025",
+    period: "2025 - 2026",
     description:
       "Provided IT support for a private media and film production company, managing software and systems used in production workflows. Ensured smooth technical operations across production processes for 4 months.",
   },
   {
     role: "Full Stack Developer (Academic Projects)",
     company: "Self-Initiated & School Projects",
-    period: "2022 - 2025",
+    period: "2023 - Present",
     description:
       "Designed and developed multiple full stack and mobile applications including iCan-Careers, Nexus, Help-Isko, and Paw Adopt Paw — applying modern technologies like Vue.js, Next.js, Laravel, Flutter, and MySQL.",
   },
